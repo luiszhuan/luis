@@ -3,9 +3,10 @@ package com.luis.sites.http.client.test;
 
 import com.luis.sites.wechat.constant.AppConstant;
 import com.luis.sites.wechat.constant.WxUrlConstant;
-import com.luis.sites.wechat.http.client.HttpClientFactory;
-import com.luis.sites.wechat.http.request.utils.WxAccessTokenResp;
-import com.luis.sites.wechat.http.request.utils.WxReqsUtils;
+import com.luis.sites.wechat.http.client.HttpClientPoolFactory;
+import com.luis.sites.wechat.http.req.utils.WxReqUtils;
+import com.luis.sites.wechat.http.resp.access.token.WxAccessTokenResp;
+import com.luis.sites.wechat.http.resp.media.WxMediaResp;
 import com.luis.sites.wechat.param.WxParam;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.NameValuePair;
@@ -31,9 +32,9 @@ public class WxRqsTest {
     WxParam wxParam;
 
     @Autowired
-    WxReqsUtils wxReqsUtils;
+    WxReqUtils wxReqUtils;
 
-    @Test
+    //@Test
     public void replaceTest() {
         String result = wxAccessTokenUrl();
         Assert.assertTrue(result != null);
@@ -41,30 +42,44 @@ public class WxRqsTest {
 
     //@Test
     public void poolingHttpClientTest() throws Exception {
-        CloseableHttpClient client = HttpClientFactory.getInstance().getIgnoreSSLClient();
+        CloseableHttpClient client = HttpClientPoolFactory.getInstance().getIgnoreSslHttpClientPool();
         HttpGet httpGet = new HttpGet(wxAccessTokenUrl());
         CloseableHttpResponse response = client.execute(httpGet);
         String result = IOUtils.toString(response.getEntity().getContent(), AppConstant.UTF_8);
-        WxAccessTokenResp wxAccessTokenResp = wxReqsUtils.convertResponse(result);
+        WxAccessTokenResp wxAccessTokenResp = wxReqUtils.convertResponse(result, WxAccessTokenResp.class);
         Assert.assertTrue(wxAccessTokenResp != null);
     }
 
-    @Test
-    public void parseWxAccessTokenRsp() {
+    //@Test
+    public void parseWxAccessTokenRspTest() {
         String responseStr = "{\"access_token\":" +
                 "\"10_c19JU9_8T19MLAAbBEhJhZ3nztexBMs8hXwNwMq0ePPzz25ReXpZMHV-VpL5Mvxhhg6QqM9X7_WGFUZ0CJDH6L5_5ZNVwqR4Op8BZyoGZNtdZp9jmZZSfQDOpFsy__nfUUuJOztDkAUSakebADQaADAEHU\"," +
                 "\"expires_in\":7200}";
         String errResponseStr = "{\"errcode\":40013,\n" + "\"errmsg\":\"invalid appid\"\n" + "}";
-        WxAccessTokenResp wxAccessTokenResp = wxReqsUtils.convertResponse(responseStr);
+        WxAccessTokenResp wxAccessTokenResp = wxReqUtils.convertResponse(responseStr, WxAccessTokenResp.class);
         Assert.assertTrue(wxAccessTokenResp.getAccessToken() != null);
         Assert.assertTrue(wxAccessTokenResp.getExpiresIn() == 7200);
         Assert.assertTrue(wxAccessTokenResp.getErrCode() == 0);
         Assert.assertTrue(wxAccessTokenResp.getErrMsg() == null);
-        wxAccessTokenResp = wxReqsUtils.convertResponse(errResponseStr);
+        wxAccessTokenResp = wxReqUtils.convertResponse(errResponseStr, WxAccessTokenResp.class);
         Assert.assertTrue(wxAccessTokenResp.getAccessToken() == null);
         Assert.assertTrue(wxAccessTokenResp.getExpiresIn() == 0);
         Assert.assertTrue(wxAccessTokenResp.getErrCode() == 40013);
         Assert.assertTrue(wxAccessTokenResp.getAccessToken() == null);
+    }
+
+    @Test
+    public void parseWxUploadMediaRspTest() {
+
+        String rspStr = "{\"type\":\"image\"," +
+                "\"media_id\":\"6IooRNA0EdEnzhmIGy5DFjVaTcq0qePAWmo66xnO4_eoTlz_VJuLDR-Aa1P8aHp0\"," +
+                "\"created_at\":1529037059}";
+        WxMediaResp wxMediaResp = wxReqUtils.convertResponse(rspStr, WxMediaResp.class);
+        Assert.assertTrue(wxMediaResp.getType().equals("image"));
+        String errResponseStr = "{\"errcode\":40013,\n" + "\"errmsg\":\"invalid appid\"\n" + "}";
+        wxMediaResp = wxReqUtils.convertResponse(errResponseStr, WxMediaResp.class);
+        Assert.assertTrue(wxMediaResp.getErrCode() == 40013);
+
     }
 
     private String wxAccessTokenUrl() {
@@ -73,6 +88,6 @@ public class WxRqsTest {
         BasicNameValuePair appSecret = new BasicNameValuePair("appSecret", wxParam.getAppSecret());
         pairList.add(appId);
         pairList.add(appSecret);
-        return wxReqsUtils.replaceUrl(WxUrlConstant.GET_ACCESS_TOKEN_URL, pairList);
+        return wxReqUtils.replaceUrl(WxUrlConstant.GET_ACCESS_TOKEN_URL, pairList);
     }
 }

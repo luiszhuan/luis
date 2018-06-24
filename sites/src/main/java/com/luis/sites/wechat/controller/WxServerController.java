@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/wechat")
-public class WxController {
-    private static final Logger logger = LogManager.getLogger(WxController.class);
+public class WxServerController {
+    private static final Logger logger = LogManager.getLogger(WxServerController.class);
 
     @Autowired
     private WxParam wxParam;

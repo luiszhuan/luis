@@ -15,24 +15,24 @@ import javax.net.ssl.SSLContext;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
-public class HttpClientFactory {
-    private static Logger LOGGER = LogManager.getLogger(HttpClientFactory.class);
-    private static HttpClientFactory ourInstance = new HttpClientFactory();
+public class HttpClientPoolFactory {
+    private static Logger LOGGER = LogManager.getLogger(HttpClientPoolFactory.class);
+    private static HttpClientPoolFactory ourInstance = new HttpClientPoolFactory();
     private CloseableHttpClient client;
 
-    private HttpClientFactory() {
+    private HttpClientPoolFactory() {
         try {
-            client = getIgnoreSSLClient();
+            client = getIgnoreSslHttpClientPool();
         } catch (Exception e) {
             LOGGER.error("", e);
         }
     }
 
-    public static HttpClientFactory getInstance() {
+    public static HttpClientPoolFactory getInstance() {
         return ourInstance;
     }
 
-    public CloseableHttpClient getIgnoreSSLClient() throws Exception {
+    public CloseableHttpClient getIgnoreSslHttpClientPool() throws Exception {
         SSLContext sslContext = SSLContexts.custom().loadTrustMaterial(null, new TrustStrategy() {
             @Override
             public boolean isTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {

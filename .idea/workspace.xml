@@ -18,102 +18,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="practice" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueryAccessTokenSchedule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/acess/token/schedule/QueryAccessTokenSchedule.java">
+      <file leaf-file-name="panel.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/src/main/resources/templates/wx/panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="85">
+              <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#caption#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/luis/demo/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/luis/demo/DemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/luis/demo/schedule/test/ScheduleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxReqsUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxReqsUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxUrlConstant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxUrlConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomAppStarter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/starter/CustomAppStarter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxMsgDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/service/WxMsgDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SitesApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/SitesApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,11 +44,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Singleton" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -145,6 +66,11 @@
       <find>wx</find>
       <find>wxParam()</find>
       <find>utf-8</find>
+      <find>Get new access token success</find>
+      <find>generateContentType</find>
+      <find>name</find>
+      <find>thy</find>
+      <find>devtools</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -156,26 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxTxtRequestMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxTxtResponseMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/text/WxTxtRequestMsgTxt.java" />
-        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/text/WxTxtRequestMsgTest.java" />
-        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/text/WxTxtResponseMsgTest.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/text/WxTxtRequestMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/text/WxTxtResponseMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/text/WxBaseRequestMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/WxTxtResponseMsgTest.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/parser/XstreamParser.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxBaseRequestMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/ImgNode.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxImgMsgImgNode.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxImgResponseMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxImgRequestMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/txt/WxTxtResponseMsg.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/parser/XStreamParser.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/processor/WxMsgProcessor.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/parser/XStreamTxtParser.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/parser/XStreamImgParser.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/img/WxImgRequestMsg.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/img/WxImgMsgImgNode.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/img/WxImgResponseMsgImgNode.java" />
@@ -189,24 +95,44 @@
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxController.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxContant.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/acess/token/schedule/GetAccessTokenSchedule.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/HttpClientFactory.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxConstant.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/ApplicationConstan.java" />
         <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/HttpClientFactoryTest.java" />
         <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/UrlReplaceTest.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/ApplicationConstant.java" />
-        <option value="$PROJECT_DIR$/sites/pom.xml" />
-        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxRqsUtils.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxAccessTokenRsp.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxAccessTokenResp.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/SitesApplication.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/starter/CustomAppStarter.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxUrlConstant.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/service/WxVerifier.java" />
         <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/AppConstant.java" />
-        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/acess/token/schedule/QueryAccessTokenSchedule.java" />
         <option value="$PROJECT_DIR$/demo/src/test/java/com/luis/demo/schedule/test/ScheduleTest.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxReqsUtils.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxUploadResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/WxErrCodeResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/WxAccessTokenResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/WxUploadResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/acess/token/schedule/QueryAccessTokenSchedule.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/HttpClientFactory.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/HttpClientPoolFactory.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxAccessTokenUtils.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxReqUtils.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxMediaConstant.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/access/token/WxMediaResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sites/src/main/resources/templates/wx/wxcontroller.html" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/starter/CustomAppStarter.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/media/WxMediaResp.java" />
+        <option value="$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxMediaReqUtils.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxServerController.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/access/token/schedule/QueryAccessTokenSchedule.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxUrlConstant.java" />
+        <option value="$PROJECT_DIR$/sites/logs/error.log" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/controller/DefaultController.java" />
+        <option value="$PROJECT_DIR$/sites/pom.xml" />
+        <option value="$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxPanelController.java" />
+        <option value="$PROJECT_DIR$/sites/src/main/resources/templates/wx/panel.html" />
       </list>
     </option>
   </component>
@@ -239,18 +165,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sites" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sites" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sites" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -268,9 +183,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -279,6 +194,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,84 +207,67 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,22 +279,26 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.luis.sites.http.client.test" />
+      <recent name="com.luis.sites.wechat.http.resp.access.token" />
       <recent name="com.luis.sites" />
       <recent name="com.luis.sites.wechat.msg.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codes\practice\sites\src\main\resources\static\css" />
+      <recent name="D:\codes\practice\sites" />
       <recent name="D:\codes\practice\sites\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.luis.sites.wechat.msg.parser" />
-      <recent name="com.luis.sites.wechat.msg.processor" />
-      <recent name="com.luis.sites.wechat.msg.entity" />
-      <recent name="com.luis.sites.wechat.msg.entity.text" />
-      <recent name="com.luis.sites.wechat.entity" />
+      <recent name="com.luis.sites.wechat.controller" />
+      <recent name="com.luis.sites.wechat.http.resp.access.token" />
+      <recent name="com.luis.sites.wechat.http.req.utils" />
+      <recent name="com.luis.sites.wechat.http.resp" />
+      <recent name="com.luis.sites.wechat.http.request.utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\codes\practice\sites" />
@@ -401,6 +306,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -412,32 +322,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScheduleTest.diffPeriodTest">
+  <component name="RunManager" selected="Maven.sites [spring-boot:run]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ScheduleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luis.demo.schedule.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luis.demo.schedule.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luis.demo.schedule.test.ScheduleTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ScheduleTest.diffPeriodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
@@ -462,7 +349,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WxRqsTest.parseWxAccessTokenRsp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WxRqsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sites" />
       <extension name="coverage">
         <pattern>
@@ -474,7 +361,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.luis.sites.http.client.test" />
       <option name="MAIN_CLASS_NAME" value="com.luis.sites.http.client.test.WxRqsTest" />
-      <option name="METHOD_NAME" value="parseWxAccessTokenRsp" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WxRqsTest.parseWxAccessTokenRspTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sites" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luis.sites.http.client.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luis.sites.http.client.test" />
+      <option name="MAIN_CLASS_NAME" value="com.luis.sites.http.client.test.WxRqsTest" />
+      <option name="METHOD_NAME" value="parseWxAccessTokenRspTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -485,7 +395,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WxRqsTest.poolingHttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WxRqsTest.parseWxUploadMediaRspTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sites" />
       <extension name="coverage">
         <pattern>
@@ -497,7 +407,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.luis.sites.http.client.test" />
       <option name="MAIN_CLASS_NAME" value="com.luis.sites.http.client.test.WxRqsTest" />
-      <option name="METHOD_NAME" value="poolingHttpClientTest" />
+      <option name="METHOD_NAME" value="parseWxUploadMediaRspTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -581,19 +491,19 @@
     <list>
       <item itemvalue="Spring Boot.SitesApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="JUnit.WxRqsTest.poolingHttpClientTest" />
-      <item itemvalue="JUnit.WxRqsTest.parseWxAccessTokenRsp" />
+      <item itemvalue="JUnit.WxRqsTest.parseWxAccessTokenRspTest" />
       <item itemvalue="Maven.sites [spring-boot:run]" />
-      <item itemvalue="JUnit.ScheduleTest" />
       <item itemvalue="JUnit.ScheduleTest.diffPeriodTest" />
+      <item itemvalue="JUnit.WxRqsTest" />
+      <item itemvalue="JUnit.WxRqsTest.parseWxUploadMediaRspTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScheduleTest.diffPeriodTest" />
-        <item itemvalue="JUnit.ScheduleTest" />
         <item itemvalue="Maven.sites [spring-boot:run]" />
-        <item itemvalue="JUnit.WxRqsTest.parseWxAccessTokenRsp" />
-        <item itemvalue="JUnit.WxRqsTest.poolingHttpClientTest" />
+        <item itemvalue="JUnit.WxRqsTest.parseWxUploadMediaRspTest" />
+        <item itemvalue="JUnit.WxRqsTest.parseWxAccessTokenRspTest" />
+        <item itemvalue="JUnit.WxRqsTest" />
+        <item itemvalue="JUnit.ScheduleTest.diffPeriodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -616,51 +526,62 @@
       <workItem from="1527939140622" duration="14148000" />
       <workItem from="1527998126025" duration="4148000" />
       <workItem from="1528006845182" duration="3773000" />
+      <workItem from="1528384871371" duration="3607000" />
+      <workItem from="1528417677811" duration="451000" />
+      <workItem from="1528944151449" duration="6572000" />
+      <workItem from="1529032253043" duration="15270000" />
+      <workItem from="1529337400171" duration="323000" />
+      <workItem from="1529492173235" duration="370000" />
+      <workItem from="1529494599581" duration="1981000" />
+      <workItem from="1529572408517" duration="4326000" />
+      <workItem from="1529660570124" duration="915000" />
+      <workItem from="1529846275762" duration="21000" />
+      <workItem from="1529846349793" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 26m 30s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 39m 23s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 30m 06s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 42m 19s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 31m 39s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 43m 02s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 35m 05s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 43m 17s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 35m 58s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 43m 39s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WxRqsTest_parseWxAccessTokenRsp - 2018.06.03 at 01h 36m 21s.xml">
-      <configuration name="WxRqsTest.parseWxAccessTokenRsp" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 44m 37s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScheduleTest - 2018.06.03 at 12h 50m 18s.xml">
-      <configuration name="ScheduleTest" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 45m 04s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScheduleTest_diffPeriodTest - 2018.06.03 at 12h 51m 30s.xml">
-      <configuration name="ScheduleTest.diffPeriodTest" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 45m 27s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScheduleTest - 2018.06.03 at 12h 52m 52s.xml">
-      <configuration name="ScheduleTest" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 45m 38s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScheduleTest_diffPeriodTest - 2018.06.03 at 12h 54m 08s.xml">
-      <configuration name="ScheduleTest.diffPeriodTest" configurationId="JUnit" />
+    <history-entry file="WxRqsTest_parseWxUploadMediaRspTest - 2018.06.15 at 12h 46m 12s.xml">
+      <configuration name="WxRqsTest.parseWxUploadMediaRspTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88145000" />
+    <option name="totallyTimeSpent" value="122648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.34747145" />
-      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.16944024" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.052950077" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -668,27 +589,29 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35073408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2805873" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.29200652" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.30016312" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64252335" visible="true" weight="0.20499243" />
+      <window_info anchor="bottom" id="Problems" order="14" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.35747662" side_tool="true" weight="0.2927383" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.17700455" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
     </layout>
   </component>
@@ -702,44 +625,55 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/txt/WxTxtRequestMsg.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxPanelController.java</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxBaseRequestMsg.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/processor/WxImgMsgProcessor.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="23" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(localFilePath).getCanonicalPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(localFilePath).get</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(localFilePath).getAbsoluteFile()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(localFilePath).getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(localFilePath)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wxReqUtils.replaceUrl(WxUrlConstant.MEDIA_UPLOAD_URL, pairList)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>wxAccessTokenRsp.getErrMsg()==null</expression-string>
         <language-id>JAVA</language-id>
@@ -750,310 +684,13 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>response.getHeaders(&quot;Content-Encoding&quot;).toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getHeaders(&quot;Content-Encoding&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getHeaders(&quot;Content-Type&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getAllHeaders()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getEntity().getContentEncoding()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getEntity()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/img/WxImgResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/img/WxImgResponseMsgImgNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/parser/XStreamTxtParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/processor/WxTxtMsgProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/annotation/PropertySource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/entity/WxBaseRequestMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/param.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/stereotype/Component.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/msg/processor/WxImgMsgProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="91" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/impl/client/HttpClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/impl/conn/PoolingHttpClientConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/impl/client/HttpClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/impl/client/HttpClientBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="222" column="14" selection-start-line="222" selection-start-column="14" selection-end-line="222" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/wx.param.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/IOUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="392" column="25" selection-start-line="392" selection-start-column="25" selection-end-line="392" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/Factory.java" />
-    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/WxTxtRequestMsgTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/HttpClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/org/omg/CORBA/NameValuePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/param/WxParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/Springboot02ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/HttpClientFactoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="496" column="66" selection-start-line="496" selection-start-column="59" selection-end-line="496" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="926" column="28" selection-start-line="926" selection-start-column="17" selection-end-line="926" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/controller/DefaultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxAccessTokenResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/scheduling/annotation/SchedulingConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/starter/CustomAppStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/request/utils/WxReqsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxUrlConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/SitesApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1075,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/AppConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1109,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/acess/token/schedule/QueryAccessTokenSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/luis/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1130,8 +750,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="917" column="55" selection-start-line="917" selection-start-column="48" selection-end-line="917" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/AppConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/client/HttpClientPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/SitesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxMediaConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6460">
+          <caret line="386" column="70" selection-start-line="386" selection-start-column="59" selection-end-line="386" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/entity/ContentType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/client/utils/URLEncodedUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="65" column="80" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar!/org/apache/http/entity/mime/content/FileBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxAccessTokenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/starter/CustomAppStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar!/org/apache/http/entity/mime/FormBodyPart.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar!/org/apache/http/entity/mime/MultipartEntityBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar!/org/apache/http/entity/ContentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/WxTxtRequestMsgTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/WxErrCodeResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/WxUploadResp.java" />
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/access/token/WxAccessTokenResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="47" column="5" selection-start-line="29" selection-start-column="3" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/resp/media/WxMediaResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/http/client/test/WxRqsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/test/java/com/luis/sites/wechat/msg/entity/WxTxtResponseMsgTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxReqUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/http/req/utils/WxMediaReqUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/access/token/schedule/QueryAccessTokenSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/wx.param.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/constant/WxUrlConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/logs/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/param/WxParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/java/com/luis/sites/wechat/controller/WxPanelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/src/main/resources/templates/wx/panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#caption#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

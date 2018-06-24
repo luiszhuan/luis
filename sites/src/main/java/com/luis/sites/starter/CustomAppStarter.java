@@ -1,6 +1,6 @@
 package com.luis.sites.starter;
 
-import com.luis.sites.wechat.acess.token.schedule.QueryAccessTokenSchedule;
+import com.luis.sites.wechat.access.token.schedule.QueryAccessTokenSchedule;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
