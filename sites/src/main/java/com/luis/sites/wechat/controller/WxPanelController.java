@@ -12,7 +12,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.io.File;
+import java.io.IOException;
 
 @Controller
 @RequestMapping("/wx/")
@@ -37,10 +41,37 @@ public class WxPanelController {
     @RequestMapping("upload")
     public String uploadTest(@RequestParam("file") MultipartFile file) {
         LOGGER.info("Upload image test");
-        WxMediaResp result = wxMediaReqUtils.uploadTmpImg();
+
+        if (file.isEmpty()) {
+            return "文件为空";
+        }
+        // 获取文件名
+        String fileName = file.getOriginalFilename();
+        LOGGER.info("Upload file name is " + fileName);
+        // 获取文件的后缀名
+        String suffixName = fileName.substring(fileName.lastIndexOf("."));
+        LOGGER.info("suffix name is " + suffixName);
+        // 文件上传后的路径
+        String filePath = "tmp/";
+        // 解决中文问题，liunx下中文路径，图片显示问题
+        // fileName = UUID.randomUUID() + suffixName;
+        File dest = new File(filePath + fileName);
+        // 检测是否存在目录
+        if (!dest.getParentFile().exists()) {
+            dest.getParentFile().mkdirs();
+        }
+        try {
+            file.transferTo(dest.getCanonicalFile());
+            LOGGER.info("Save file to " + dest.getCanonicalPath());
+
+        } catch (IllegalStateException | IOException e) {
+            LOGGER.error("", e);
+        }
+
+        WxMediaResp result = wxMediaReqUtils.uploadTmpImg(filePath, fileName);
         LOGGER.info("upload successful" + result);
         LOGGER.info(file.getSize());
-        return "wx/panel";
+        return "redirect:/wx/panel";
     }
 
     @ModelAttribute("wxParam")
@@ -52,4 +83,5 @@ public class WxPanelController {
     public String GetAccessToken() {
         return accessTokenSchedule.getWxAccessTokenResp().getAccessToken();
     }
+
 }

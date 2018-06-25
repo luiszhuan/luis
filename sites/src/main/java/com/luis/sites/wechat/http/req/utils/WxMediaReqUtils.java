@@ -35,7 +35,7 @@ public class WxMediaReqUtils {
     @Autowired
     WxReqUtils wxReqUtils;
 
-    public WxMediaResp uploadTmpImg() {
+    public WxMediaResp uploadTmpImg(String localFilePath, String fileName) {
         try {
             List<NameValuePair> pairList = new ArrayList<NameValuePair>();
             LOGGER.info("Access token " + queryAccessTokenSchedule.getWxAccessTokenResp().getAccessToken());
@@ -46,11 +46,11 @@ public class WxMediaReqUtils {
             CloseableHttpClient client = HttpClientPoolFactory.getInstance().getIgnoreSslHttpClientPool();
 
             HttpPost httpPost = new HttpPost(wxReqUtils.replaceUrl(WxUrlConstant.MEDIA_UPLOAD_URL, pairList));
-            String localFilePath = "cap.PNG";
+            //String localFilePath = "cap.PNG";
 
             MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();
             ContentType contentType = ContentType.create("multipart/form-data", AppConstant.UTF_8);
-            multipartEntityBuilder.addBinaryBody("media", new File(localFilePath), contentType, "cap.PNG");
+            multipartEntityBuilder.addBinaryBody("media", new File(localFilePath + fileName), contentType, "cap.PNG");
             multipartEntityBuilder.setCharset(Charset.forName(AppConstant.UTF_8));
             multipartEntityBuilder.setMode(HttpMultipartMode.BROWSER_COMPATIBLE);
 
