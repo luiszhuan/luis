@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>WeChat Panel</title>
+</head>
+
+<body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+<div class="container bg-light">
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 ">
+            <table class="table table-bordered table-hover" >
+                <caption style="caption-side:top;text-align:center">
+                    <mark>WeChat Param</mark>
+                </caption>
+                <thead class=" thead-light">
+                <tr>
+                    <th scope="col">name</th>
+                    <th scope="col">value</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>name</td>
+                    <td th:text="${wxParam.name}"></td>
+                </tr>
+                <tr>
+                    <td>appId</td>
+                    <td th:text="${wxParam.appId}"></td>
+                </tr>
+                <tr>
+                    <td>token</td>
+                    <td th:text="${wxParam.token}"></td>
+                </tr>
+                <tr>
+                    <td>appSecret</td>
+                    <td th:text="${wxParam.appSecret}"></td>
+                </tr>
+                <tr>
+                    <td>encodingAESKey</td>
+                    <td th:text=" ${wxParam.encodingAESKey}"></td>
+                </tr>
+                <tr>
+                    <td>access token</td>
+                    <td th:text=" ${accessToken}" style="word-break:break-all; word-wrap:break-spaces;"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 ">
+            <p>Triger
+                <mark>upload</mark>
+                tmp image
+            </p>
+            <form action="/wx/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" class="btn-light"></input>
+                <input type="submit" value="Upload" class="btn-primary"/>
+            </form>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 ">
+            <p>
+                <mark>Download</mark>
+                image from WeChat
+            </p>
+            <form action="/wx/get" method="get">
+                <label>Media Id:</label><input type="text" name="mediaId"/>
+                <input type="submit" value="Down Load Image" class="btn-primary"/>
+            </form>
+        </div>
+    </div>
+    <div class=" row d-flex justify-content-center">
+        <div class="col-sm-8 ">
+            <!-- Footer -->
+            <footer class="page-footer font-small blue pt-4 mt-4">
+                <!-- Footer Links -->
+                <div class="container-fluid text-center text-md-left">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <!-- Content -->
+                            <h5 class="text-uppercase">Footer Content</h5>
+                            <p>Here you can use rows and columns here to organize your footer content.</p>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <!-- Grid column -->
+                        <div class="col-md-6 mb-md-0 mb-3">
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <!-- Footer Links -->
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
