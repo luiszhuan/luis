@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-//①設置運行器爲參數化運行器
+//①设置运行器为参数化运行器
 @RunWith(Parameterized.class)
 public class ParameterizedJunitDemoTest {
     private boolean expect;

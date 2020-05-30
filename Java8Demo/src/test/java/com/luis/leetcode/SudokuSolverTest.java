@@ -2,8 +2,6 @@ package com.luis.leetcode;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SudokuSolverTest {
 
     @Test

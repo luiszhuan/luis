@@ -48,9 +48,10 @@ public class StreamDemo {
         //Stream.iterator
         Stream.iterate(new int[]{0, 1}, t -> new int[]{t[1], t[0] + t[1]}).limit(10).map(t -> t[0]).forEach(System.out::println);
         //Stream.generator
+        System.out.println("==========random limit 5=========");
         Stream.generate(Math::random).limit(5).forEach(System.out::println);
 
-
+        System.out.println("===============fib====================");
         IntSupplier fib = new IntSupplier() {
             private int previous = 0;
             private int current = 1;
@@ -65,5 +66,11 @@ public class StreamDemo {
             }
         };
         IntStream.generate(fib).limit(10).forEach(System.out::println);
+        System.out.println("==========stream 2===============");
+        List<Integer> number1 = Arrays.asList(1, 2, 3);
+        List<Integer> number2 = Arrays.asList(3, 4);
+        List<int[]> pairs = number1.stream().flatMap(i -> number2.stream().map(j -> new int[]{i, j})).collect(Collectors.toList());
+        System.out.println(pairs);
+
     }
 }

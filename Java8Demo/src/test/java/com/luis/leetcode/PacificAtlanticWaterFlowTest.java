@@ -1,10 +1,12 @@
 package com.luis.leetcode;
 
+import org.junit.Test;
+
 import java.util.List;
 
 public class PacificAtlanticWaterFlowTest {
 
-    @org.junit.Test
+    @Test
     public void pacificAtlantic() {
         int[][] matrix = new int[][]{
                 {1, 2, 2, 3, 5},
